@@ -18,3 +18,11 @@ console.log(strikers);
 
 console.log(strikers.unshift("Aguero"));  // Inserts new elements at the start of an array.
 console.log(strikers);
+
+strikers.push("Icardi");
+strikers.push("Aubemayang");
+strikers.sort();            // Sorts an array.
+console.log(strikers);
+
+strikers.splice(2,2, "Vardy"); // Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
+console.log(strikers);
