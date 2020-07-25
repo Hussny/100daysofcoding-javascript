@@ -1,6 +1,4 @@
 // The object literal is a simple way of creating an object using {} brackets.
-
-
 let user = {
   name: "salat",
   age: "24",
