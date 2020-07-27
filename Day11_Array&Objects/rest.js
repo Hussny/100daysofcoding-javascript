@@ -1,5 +1,6 @@
 const alphabet = ["A", "B", "C", "D", "E", "F"];
 
+// The three dots ... is used display the other arrays
 const [a,b,c, ...rest] = alphabet;
 
 console.log(a);
