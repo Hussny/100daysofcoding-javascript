@@ -1,7 +1,7 @@
-let players = ["Lebron", "Kyrie", "Luka", "Kawhi"];
+const alphabet=['A', 'B', 'C', 'D', 'E', 'F'];
 
-const [Lebron,,Kyrie] = players; // What the two comma ,, does is to skip an Array.
+// The two comma is used to skid an array.
+const[a,,c]=alphabet;
 
-console.log(Lebron); // Lebron
-console.log(Kyrie);     // Luka
-
+console.log(a);
+console.log(c);
