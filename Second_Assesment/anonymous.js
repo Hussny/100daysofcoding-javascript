@@ -1,5 +1,4 @@
-var nba = function () {
-  console.log("Resumes on 30th July");
-};
+x="4"
+z=5
+v=2
 
-nba();
