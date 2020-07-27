@@ -1,4 +1,4 @@
-var string = "So far i like Daring Greatly"
+var string = "So far i lke Daring Greatly"
 
 // charcodeAt()
 console.log(string.charCodeAt(4));
