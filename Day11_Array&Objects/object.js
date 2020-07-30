@@ -9,7 +9,7 @@ const personOne={
 
 const personTwo={
     name:'Galmo',
-    age: 24,
+    age: 25,
     address:{
         city:'Marsabit',
         status:'Crush'
