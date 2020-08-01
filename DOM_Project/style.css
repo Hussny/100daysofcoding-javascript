@@ -1,3 +1,4 @@
+ 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 *{
@@ -8,8 +9,8 @@ body{
     font-family: "oswald" sans-serif;
 }
 
-/*Modal CSS*/
-.modal-area{
+/*******Modal CSS*******/
+#modal-area{
 	position: fixed;
 	height: 100%;
 	width: 100%;
@@ -49,12 +50,4 @@ body{
 	line-height: 40px;
 	transform: rotate(45deg);
 	cursor: pointer;
-}
-.popup-btn{
-	display: inline-block;
-	text-decoration: none;
-	padding: 10px 30px;
-	background: #fff;
-	color: #333;
-	border-radius: 4px;
 }
