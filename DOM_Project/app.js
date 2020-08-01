@@ -23,5 +23,5 @@ var lux = document.getElementById("main");
 
 lux.style.backgroundColor = "blue";
 lux.style.padding = "0px";
-lux.style.margin = "40px";
+lux.style.margin = "0px";
 lux.style.display = "flex";
