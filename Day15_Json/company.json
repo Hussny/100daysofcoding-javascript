@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Hosny Corporation",
+    "numberOfEmployees": 54,
+    "ceo": "Shavi",
+    "rating": 4.5
+  },
+  {
+    "name": "Big Data",
+    "numberOfEmployees": 98,
+    "ceo": null,
+    "rating": 4.9
+  }
+]
