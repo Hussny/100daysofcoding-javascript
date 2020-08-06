@@ -32,7 +32,7 @@ console.log(userOne);
 console.log(userTwo);
 */
 // CLASS METHODS
-/*
+
 class User{
 constructor(email, name){
     this.email = email;
@@ -51,6 +51,6 @@ var userTwo = new User("xyz@gail.com", "xyz");
 
 userOne.login();
 userTwo.logout();
-*/
+
 
 // METHOD CHAINING 
