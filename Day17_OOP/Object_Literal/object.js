@@ -10,3 +10,7 @@ var userOne = {
 };
 
 console.log(userOne.name);
+
+// UPDATING PROPERTIES
+
+userOne.name = "Salat";
