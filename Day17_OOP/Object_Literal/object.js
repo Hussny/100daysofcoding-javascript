@@ -9,14 +9,15 @@
     }
 };
 
-console.log(userOne.name);
+console.log(userOne.name); */
 
 // UPDATING PROPERTIES
 
-userOne.name = "Salat"; */
+// userOne.name = "Salat"; 
+
 
 // CLASS CONSTRUCTORS
-
+/*
 class User{
     constructor(email, name){
         this.email = email;
@@ -29,6 +30,27 @@ var userTwo = new User("xyz@gail.com", "xyz");
 
 console.log(userOne);
 console.log(userTwo);
+*/
+// CLASS METHODS
+/*
+class User{
+constructor(email, name){
+    this.email = email;
+    this.name = name;
+}
+login(){
+    console.log(this.email, "just logged in");
+}
+logout(){
+    console.log(this.email, "just logged out");
+}
+}
 
-// the 'new' keyword
-// - creates a new empty object{}
+var userOne = new User("abc@gmail.com", "abd");
+var userTwo = new User("xyz@gail.com", "xyz");
+
+userOne.login();
+userTwo.logout();
+*/
+
+// METHOD CHAINING 
