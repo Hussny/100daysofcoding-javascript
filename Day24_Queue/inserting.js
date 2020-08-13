@@ -14,3 +14,8 @@ enqueue(Element){
         this.rear=this.rear+1;
     }
 }
+
+// LENGTH OF THE QUEUE
+length(){
+    return this.rear;       // Here we use the rear attribute to return the length of the queue
+}
