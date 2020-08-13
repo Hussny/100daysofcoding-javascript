@@ -8,7 +8,7 @@ class queue {
 }
 
 // INSERTING AN ELEMENT OF THE QUEUE
-enqueue(Element){
+enqueue(Element) {
     if(this.rear<this.size){            // checks if the queue is full or not 
         this.data[this.rear]=Element;
         this.rear=this.rear+1;
@@ -16,6 +16,11 @@ enqueue(Element){
 }
 
 // LENGTH OF THE QUEUE
-length(){
+length() {
     return this.rear;       // Here we use the rear attribute to return the length of the queue
+}
+
+// CHECK IF THE QUEUE IS EMPTY
+isEmpty(){
+    return this.rear === 0;     // if the rear points to 0 we say the queue is empty
 }
