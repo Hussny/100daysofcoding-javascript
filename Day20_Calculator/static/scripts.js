@@ -7,14 +7,14 @@ window.onload = function (){
 		  if(li[j].innerHTML === '='){
 			li[j].addEventListener("click", calc(j));
 		  }else{
-			li[j].addEventListener("click", addtocurrentvalue(j));
+			li[j].addEventListener("click", value(j));
 		  }
 	}
 	
 
 	
 	
-	function addtocurrentvalue (j){
+	function value (j){
 		return function(){
 			if (li[j].innerHTML === "÷") {
                p.innerHTML  +=  "/" ;
