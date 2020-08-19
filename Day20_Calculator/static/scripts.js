@@ -1,7 +1,8 @@
+
 window.onload = function (){
-	var li = document.getElementsByTagName("li");
-	var p = document.querySelectorAll(' p')[0];
-	var clear =   document.getElementsByClassName('clear')[0];
+	var li = document.getElementsByTagName("li");                       // get the element list
+	var p = document.querySelectorAll(' p')[0];							// getting p under the class and id 'screen'
+	var clear =   document.getElementsByClassName('clear')[0];			
 	
 	for(var j=0;j<li.length;j+=1){
 		  if(li[j].innerHTML === '='){
