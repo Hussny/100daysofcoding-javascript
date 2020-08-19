@@ -1,27 +1,27 @@
 window.onload = function (){
-	var elements = document.getElementsByTagName("li");
-	var screen = document.querySelectorAll(' p')[0];
+	var li = document.getElementsByTagName("li");
+	var p = document.querySelectorAll(' p')[0];
 	var clear =   document.getElementsByClassName('clear')[0];
 	
-	for(var i=0;i<elements.length;i+=1){
-		  if(elements[i].innerHTML === '='){
-			    elements[i].addEventListener("click", calculate(i));
+	for(var j=0;j<li.length;j+=1){
+		  if(li[j].innerHTML === '='){
+			li[j].addEventListener("click", calc(j));
 		  }else{
-			   elements[i].addEventListener("click", addtocurrentvalue(i));
+			li[j].addEventListener("click", addtocurrentvalue(j));
 		  }
 	}
 	
 
 	
 	
-	function addtocurrentvalue (i){
+	function addtocurrentvalue (j){
 		return function(){
-			if (elements[i].innerHTML === "÷") {
-               screen.innerHTML  +=  "/ " ;
-      }else if(elements[i].innerHTML === "x"){
-			      screen.innerHTML += "*";
+			if (li[j].innerHTML === "÷") {
+               p.innerHTML  +=  "/" ;
+      }else if(li[j].innerHTML === "x"){
+			      p.innerHTML += "*";
 		   } else{
-			   screen.innerHTML  += elements[i].innerHTML;
+			   p.innerHTML  += li[j].innerHTML;
 		   }
 	  };
    }
@@ -29,12 +29,12 @@ window.onload = function (){
 
 
    clear.onclick = function () {
-    screen.innerHTML = '';
+    p.innerHTML = '';
   }; 
 
- function calculate(i) {
+ function calc(j) {
     return function () {
-        screen.innerHTML = eval(screen.innerHTML);
+        p.innerHTML = eval(p.innerHTML);
     };
   }
-};
+}
