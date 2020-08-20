@@ -1,4 +1,5 @@
-window.onload = function () {
+window.onload = load();
+ function load() {
   let li = document.getElementsByTagName("li"); // get the element list
   let p = document.querySelectorAll(" p")[0]; // getting p under the class and id 'screen'
   let clear = document.getElementsByClassName("clear")[0];
