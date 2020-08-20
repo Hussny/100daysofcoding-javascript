@@ -26,15 +26,15 @@ function load() {
  *********************************/
   function value(j) {
     return function () {
-      if (li[j].innerHTML === "-") {
+      if (li[j].innerHTML == "-") {
         p.innerHTML += "-";
-      } else if (li[j].innerHTML === "+") {
+      } else if (li[j].innerHTML == "+") {
         p.innerHTML += "+";
       } 
-      else if (li[j].innerHTML === "÷") {
+      else if (li[j].innerHTML == "÷") {
         p.innerHTML += "/";
       }
-      else if (li[j].innerHTML === "x") {
+      else if (li[j].innerHTML == "x") {
         p.innerHTML += "*";
       }else {
         p.innerHTML += li[j].innerHTML;
