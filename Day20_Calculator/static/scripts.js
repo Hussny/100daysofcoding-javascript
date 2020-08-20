@@ -9,10 +9,7 @@ function load() {
   let p = document.querySelectorAll(" p")[0]; // obtain all of the <p> elements in the document
   let li = document.getElementsByTagName("li"); // obtain all of the <li> elements in the by tag name
   let clear = document.getElementsByClassName("clear")[0]; // obtain by class name clear which is C
-  
-  /***********************
- Looping through the array
- ************************/
+
   for (let j = 0; j < li.length; j += 1) {
     if (li[j].innerHTML === "=") {
       li[j].addEventListener("click", calc(j));
@@ -21,7 +18,7 @@ function load() {
     }
   }
 
- /*********************************
+  /*********************************
  Comparing variables and evaluating
  *********************************/
   function value(j) {
@@ -30,13 +27,11 @@ function load() {
         p.innerHTML += "-";
       } else if (li[j].innerHTML == "+") {
         p.innerHTML += "+";
-      } 
-      else if (li[j].innerHTML == "÷") {
+      } else if (li[j].innerHTML == "÷") {
         p.innerHTML += "/";
-      }
-      else if (li[j].innerHTML == "x") {
+      } else if (li[j].innerHTML == "x") {
         p.innerHTML += "*";
-      }else {
+      } else {
         p.innerHTML += li[j].innerHTML;
       }
     };
@@ -50,7 +45,7 @@ function load() {
   /*******************************
  Evaluate the code and executes it
  ********************************/
-function calc(j) {
+  function calc(j) {
     return function () {
       p.innerHTML = eval(p.innerHTML);
     };
