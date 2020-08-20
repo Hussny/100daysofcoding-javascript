@@ -19,7 +19,7 @@ function load() {
   }
 
   /*********************************
- Comparing variables and evaluating
+ Comparing Operator and evaluating
  *********************************/
   function value(j) {
     return function () {
