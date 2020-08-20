@@ -2,13 +2,14 @@
  windows onload : tells windows what to do when it is loaded up
  *************************************************************/
 window.onload = load();
-/****************************************************************************************
- windows onload : tells windows what to do when it is loaded up
- ***************************************************************************************/
+/****************************
+ Selecting / Getting Elements
+ ***************************/
 function load() {
   let p = document.querySelectorAll(" p")[0]; // obtain all of the <p> elements in the document
   let li = document.getElementsByTagName("li"); // obtain all of the <li> elements in the by tag name
   let clear = document.getElementsByClassName("clear")[0]; // obtain by class name clear which is C
+  
   /****************************************************************************************
  windows onload : tells windows what to do when it is loaded up
  *****************************************************************************************/
