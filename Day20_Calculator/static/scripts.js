@@ -1,7 +1,8 @@
+// windows onload tells windows what to do when it is loaded up
 window.onload = load();
- function load() {
-  let li = document.getElementsByTagName("li"); // get the element list
+function load() {
   let p = document.querySelectorAll(" p")[0]; // getting p under the class and id 'screen'
+  let li = document.getElementsByTagName("li"); // get the element list
   let clear = document.getElementsByClassName("clear")[0];
 
   for (let j = 0; j < li.length; j += 1) {
@@ -33,4 +34,4 @@ window.onload = load();
       p.innerHTML = eval(p.innerHTML);
     };
   }
-};
+}
