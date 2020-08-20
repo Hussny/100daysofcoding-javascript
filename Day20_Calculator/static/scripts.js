@@ -21,13 +21,22 @@ function load() {
     }
   }
 
+ /*********************************
+ Comparing variables and evaluating
+ *********************************/
   function value(j) {
     return function () {
-      if (li[j].innerHTML === "÷") {
+      if (li[j].innerHTML === "-") {
+        p.innerHTML += "-";
+      } else if (li[j].innerHTML === "+") {
+        p.innerHTML += "+";
+      } 
+      else if (li[j].innerHTML === "÷") {
         p.innerHTML += "/";
-      } else if (li[j].innerHTML === "x") {
+      }
+      else if (li[j].innerHTML === "x") {
         p.innerHTML += "*";
-      } else {
+      }else {
         p.innerHTML += li[j].innerHTML;
       }
     };
