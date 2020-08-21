@@ -1,0 +1,9 @@
+{
+    "name": "Calculator Project",
+    "short_name": "Calculator",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#3F475B",
+    "theme_color":"#44B3C2",
+    "orientation": "portrait-primary"
+}
