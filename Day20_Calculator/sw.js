@@ -3,6 +3,7 @@ const cacheName='v1';
 const cacheAssets = [
     'index.html',
     'manifest.webmanifest',
+    'static/styles.css',
     'static/scripts.js',
     'app.js'
 ]
