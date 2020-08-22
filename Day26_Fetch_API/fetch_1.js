@@ -1,4 +1,10 @@
-fetch('https://regres.in/api/users')
+let response = fetch("https://regres.in/api/users")
+
+
+.then(Response => console.log(Response))
+
+
+/*fetch('https://regres.in/api/users')
 //.then (res => console.log(res))
 .then(res => res.json())
 .then (res=> {
@@ -8,3 +14,4 @@ fetch('https://regres.in/api/users')
         console.log('Not Successful');
     }
 })
+*/
