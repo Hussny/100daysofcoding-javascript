@@ -8,3 +8,9 @@ fetch(url)
   .catch(function(error) {
     // If there is any error you will catch them here
   });
+
+  fetch(url)
+  .then((resp) => resp.json()) // Transform the data into json
+  .then(function(data) {
+    // Create and append the li's to the ul
+    })
