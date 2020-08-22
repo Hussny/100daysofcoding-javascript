@@ -1,17 +1,2 @@
-let response = fetch("https://regres.in/api/users")
-
-
-.then(Response => console.log(Response))
-
-
-/*fetch('https://regres.in/api/users')
-//.then (res => console.log(res))
-.then(res => res.json())
-.then (res=> {
-    if(res.ok){
-        console.log('Success');
-    } else{
-        console.log('Not Successful');
-    }
-})
-*/
+const ul = document.getElementById('authors'); // Get the list where we will place our authors
+const url = 'https://randomuser.me/api/?results=10'; // Get 10 random users
