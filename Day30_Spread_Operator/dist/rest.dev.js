@@ -5,7 +5,7 @@ function f(a, b) {
     args[_key - 2] = arguments[_key];
   }
 
-  console.log(args);
+  console.log(args); // the rest parameter (...) collects the arguments 3,4,5 into an array
 }
 
 f(1, 2, 3, 4, 5);
